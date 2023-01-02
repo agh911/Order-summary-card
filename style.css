@@ -49,6 +49,8 @@ p {
     align-items: center;
     text-align: center;
     padding: 10px 50px;
+    background-color: var(--neutral-very-pale-blue);
+    border-radius: 0 0 20px 20px;
 }
 
 .details > p {
