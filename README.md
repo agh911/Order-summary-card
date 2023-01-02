@@ -1,12 +1,6 @@
-# Frontend Mentor - Order summary card
-
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
-
-
-# Product preview card component
+# Order summary card
 
 The aim for this project was to create an order summary card component that looked as much like the provided design as possible.
-
 
 ## Table of contents
 - [Project screenshots](#project-screenshots)
