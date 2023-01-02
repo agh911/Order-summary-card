@@ -1,0 +1,131 @@
+:root {
+    --primary-pale-blue: #e0e8ff;
+    --primary-bright-blue: #3829e0;
+    --neutral-very-pale-blue: #f5f7ff;
+    --neutral-desaturated-blue: #7280a7;
+    --neutral-dark-blue: #1f2f56;
+}
+
+html {
+    max-width: 100%;
+
+}
+
+body {
+    background-color: var(--primary-pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    margin: 5%
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 16px;
+    color: var(--neutral-desaturated-blue);
+}
+
+.container {
+    background-color: var(--neutral-very-pale-blue);
+    max-width: min-content;
+    border-radius: 20px;
+
+}
+
+.img img {
+    border-radius: 20px 20px 0 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.details > p {
+    line-height: 28px;
+}
+
+.plan-details p:first-of-type {
+    font-weight: 700;
+    color: black;
+}
+
+.imageAndPlan {
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+
+.imageAndPlan img {
+    padding-right: 15px;
+}
+
+.payment-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 335px;
+    border-radius: 10px;
+    background-color: rgba(224, 232, 255, 0.3);
+    margin-bottom: 25px;
+    padding: 5px 0;
+}
+
+a {
+    font-weight: 700;
+}
+
+.payment-plan a:hover {
+    text-decoration: none;
+    color: rgba(56, 41, 224, .7);
+}
+
+button {
+    width: 335px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: var(--primary-bright-blue);
+    box-shadow: rgba(56, 41, 224, .5) 0px 8px 24px;
+    color: var(--primary-pale-blue);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(56, 41, 224, .7);
+}
+
+.cancel {
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--neutral-desaturated-blue);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cancel:hover {
+    color: black;
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
