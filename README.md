@@ -12,8 +12,8 @@ The aim for this project was to create an order summary card component that look
 ![order-card-desktop-size](images/order-card.png)
 
 ## Links
-* [Solution](https://github.com/agh911/NFT-Preview-Card-Component/)
-* [Live URL](https://agh911.github.io/NFT-Preview-Card-Component/)
+* [Solution](https://github.com/agh911/Order-summary-card/)
+* [Live URL](https://agh911.github.io/Order-summary-card/)
 
 ## Built with
 - Semantic HTML5 markup
